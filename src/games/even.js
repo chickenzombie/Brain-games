@@ -1,7 +1,16 @@
-import randomNumber from './rng.js';
+import randomNumberGenerator from '../rng.js';
+import gameEngine from '../index.js';
 
-const gameQuestion = ('Answer "yes" if the number is even, otherwise answer "no".');
+const gameDescription = ('Answer "yes" if the number is even, otherwise answer "no".');
 
+const isNumberEven = (number) => number % 2 === 0;
 
-export default brainEven();
+const brainEven = () => {
+  const randomNumber = randomNumberGenerator(1, 50);
+  const rightAnswer = isNumberEven(randomNumber) ? 'yes' : 'no';
+  return [randomNumber, rightAnswer];
+};
 
+const startBrainEven = gameEngine(gameDescription, brainEven);
+
+export default startBrainEven;

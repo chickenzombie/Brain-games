@@ -1,29 +1,32 @@
-import randomNumber from "../rng";
+import gameEngine from '../index.js';
+import randomNumberGenerator from '../rng.js';
 
-const gameQuestion = 'What is the result of the expression?';
-const operator = ['+', '-', '*'];
+const gameDescription = ('What is the result of the expression?');
 
-const calculations = (number1, number2, operator) => {
+const operators = ['+', '-', '*'];
 
-let result = 0; 
-switch (operator) {
+const calcLogic = (firstNumber, operator, secondNumber) => {
+  switch (operator) {
     case '+':
-        result = number1 + number2;
-        break;
+      return firstNumber + secondNumber;
     case '-':
-        result = number1 - number2;
-        break;
+      return firstNumber - secondNumber;
     case '*':
-        result = number1 * number2;
-        break;
-    default: 
-        console.log('Invalid operator');
-        break;
-};
+      return firstNumber * secondNumber;
+    default:
+      return 'Unknown operator';
+  }
 };
 
+const brainCalc = () => {
+  const firstNumber = randomNumberGenerator(1, 10);
+  const secondNumber = randomNumberGenerator(1, 10);
+  const randomOperator = operators[randomNumberGenerator(0, operators.length - 1)];
+  const question = `${firstNumber} ${randomOperator} ${secondNumber}`;
+  const rightAnswer = String(calcLogic(firstNumber, randomOperator, secondNumber));
+  return [question, rightAnswer];
+};
 
+const startBrainCalc = gameEngine(gameDescription, brainCalc);
 
-let firstNumber = randomNumber(1, 20);
-let secondNumber = randomNumber(1, 20);
-
+export default startBrainCalc;
