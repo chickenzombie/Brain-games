@@ -4,12 +4,13 @@ import gameEngine from '../index.js';
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const gcdLogic = (firstNumber, secondNumber) => {
-  while (secondNumber) {
-    const gcd = secondNumber;
-    secondNumber = firstNumber % secondNumber;
-    firstNumber = gcd;
+  if (secondNumber === 0) {
+    return firstNumber;
   }
-  return firstNumber;
+  if (secondNumber > firstNumber) {
+    return gcdLogic(secondNumber, firstNumber);
+  }
+  return gcdLogic(secondNumber, firstNumber % secondNumber);
 };
 
 const brainGCD = () => {
