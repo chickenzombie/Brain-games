@@ -9,3 +9,5 @@
 [![asciicast](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B.svg)](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B)
 ### 4. Brain Progression: Determine the missing number in an arithmetic progression.
 [![asciicast](https://asciinema.org/a/1qH8ZNTzE7IhXgo350eWaoXq0.svg)](https://asciinema.org/a/1qH8ZNTzE7IhXgo350eWaoXq0)
+### 5. Brain Prime: Determine if the number is prime or not.
+[![asciicast](https://asciinema.org/a/ygeHD01YGOeBDi5zD9JnnLgOF.svg)](https://asciinema.org/a/ygeHD01YGOeBDi5zD9JnnLgOF)
