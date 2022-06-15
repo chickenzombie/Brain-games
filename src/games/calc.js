@@ -1,7 +1,7 @@
 import gameEngine from '../index.js';
 import randomNumberGenerator from '../rng.js';
 
-const gameDescription = ('What is the result of the expression?');
+const gameDescription = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
