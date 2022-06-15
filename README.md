@@ -5,3 +5,5 @@
 [![asciicast](https://asciinema.org/a/v3TVvDaOQWNoBnuI7Qxv2neK5.svg)](https://asciinema.org/a/v3TVvDaOQWNoBnuI7Qxv2neK5)
 ### 2. Brain Calculator: In this game you need to determine the result of a mathematical operation.
 [![asciicast](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh.svg)](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh)
+### 3. Brain GCD: In this game, you need to determine the greatest common divisor of two integers.
+[![asciicast](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B.svg)](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B)
