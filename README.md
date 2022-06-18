@@ -13,12 +13,12 @@
 
 
 ## How to install
-Make sure you have installed Node.js version 13 or higher.
-1. Clone repo:
+Make sure you have installed Node.js version 13 or higher
+1. Clone repo
 ```
 git clone git@github.com:chickenzombie/frontend-project-lvl1.git
 ```
-2. Install packages: 
+2. Install packages
 ```
 make install
 ```
