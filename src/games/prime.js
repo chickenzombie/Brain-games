@@ -18,6 +18,6 @@ const brainPrime = () => {
   return [randomNumber, rightAnswer];
 };
 
-const startBrainPrime = gameEngine(gameDescription, brainPrime);
+export const startBrainPrime = gameEngine(gameDescription, brainPrime);
 
-export default startBrainPrime;
+export default brainPrime;

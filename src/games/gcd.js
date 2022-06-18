@@ -21,6 +21,6 @@ const brainGCD = () => {
   return [question, rightAnswer];
 };
 
-const startBrainGCD = gameEngine(gameDescription, brainGCD);
+export const startBrainGCD = gameEngine(gameDescription, brainGCD);
 
-export default startBrainGCD;
+export default brainGCD;

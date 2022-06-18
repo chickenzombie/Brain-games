@@ -20,6 +20,6 @@ const brainProgression = () => {
   return [question, rightAnswer];
 };
 
-const startBrainProgression = gameEngine(gameDescription, brainProgression);
+export const startBrainProgression = gameEngine(gameDescription, brainProgression);
 
-export default startBrainProgression;
+export default brainProgression;
