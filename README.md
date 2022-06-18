@@ -24,30 +24,30 @@ make install
 ```
 
 ## Game descriptions
-### 1. Brain Even. 
+### 1. Brain even
 To start the game type:
 ```
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/v3TVvDaOQWNoBnuI7Qxv2neK5.svg)](https://asciinema.org/a/v3TVvDaOQWNoBnuI7Qxv2neK5)
-### 2. Brain Prime: Determine if the number is prime or not.
+### 2. Brain prime
 To start the game type:
 ```
 brain-prime
 ```
 [![asciicast](https://asciinema.org/a/ygeHD01YGOeBDi5zD9JnnLgOF.svg)](https://asciinema.org/a/ygeHD01YGOeBDi5zD9JnnLgOF)
-### 3. Brain GCD: Determine the greatest common divisor of two integers.
+### 3. Brain gcd
 To start the game type:
 ```
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B.svg)](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B)
-### 4. Brain Calculator: Determine the result of a mathematical operation.
+### 4. Brain calculator
 [![asciicast](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh.svg)](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh)
 ```
 brain-calc
 ```
-### 5. Brain Progression: Determine the missing number in an arithmetic progression.
+### 5. Brain progression
 ```
 brain-progression
 ```
