@@ -5,9 +5,14 @@
 
 ## How to install
 1. Clone repo:
-```git clone git@github.com:chickenzombie/frontend-project-lvl1.git```
-2. Install package: make install
-3. ...
+```
+git clone git@github.com:chickenzombie/frontend-project-lvl1.git
+```
+2. Install packages: 
+```
+make install
+```
+4. ...
 
 ## Game Descriptions
 ### 1. Brain Even: Determine if the number is even or not.
