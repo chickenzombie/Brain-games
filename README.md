@@ -5,6 +5,7 @@
 
 # Project decription
 "Brain Games" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again.
+
 The games are:
 * Brain even: determining an even number.
 * Brain prime: determining a prime number.
