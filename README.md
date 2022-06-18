@@ -1,5 +1,7 @@
-## Hexlet tests and linter status:
-[![Actions Status](https://github.com/chickenzombie/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/chickenzombie/frontend-project-lvl1/actions) <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+## Hexlet tests:
+[![Actions Status](https://github.com/chickenzombie/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/chickenzombie/frontend-project-lvl1/actions) 
+## Linter status:
+<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 ## How to install
 1. Clone repo: git clone git@github.com:chickenzombie/frontend-project-lvl1.git
