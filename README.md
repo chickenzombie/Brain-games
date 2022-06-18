@@ -4,13 +4,13 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 # Project decription
-"Brain Games" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again. The games are:
-* Brain even: determining an even number
-* Brain prime: determining a prime number
-* Brain gcd: determining the greatest common divisor
-* Brain calculator: calculate random arithmetic expressions
-* Brain progression: find missing numbers in a number sequence
-
+"Brain Games" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again.
+The games are:
+* Brain even: determining an even number.
+* Brain prime: determining a prime number.
+* Brain gcd: determining the greatest common divisor.
+* Brain calculator: calculate random arithmetic expressions.
+* Brain progression: find missing numbers in a number sequence.
 
 ## How to install
 Make sure you have installed Node.js version 13 or higher.
