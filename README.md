@@ -1,7 +1,7 @@
 ## Hexlet tests:
 [![Actions Status](https://github.com/chickenzombie/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/chickenzombie/frontend-project-lvl1/actions) 
 ## Linter status:
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/c015d0765c85ded2d1bb/maintainability)](https://codeclimate.com/github/chickenzombie/frontend-project-lvl1/maintainability)
 
 # Project decription
 "Brain Games" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again.
