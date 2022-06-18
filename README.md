@@ -44,11 +44,13 @@ brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B.svg)](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B)
 ### 4. Brain calculator.
+To start the game type:
 ```
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh.svg)](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh)
 ### 5. Brain progression.
+To start the game type:
 ```
 brain-progression
 ```
