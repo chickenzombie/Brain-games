@@ -3,6 +3,15 @@
 ## Linter status:
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
+# Project decription
+"Brain Games" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again. The games are:
+**Calculator. Calculate random arithmetic expressions**
+Progression. Find missing numbers in a number sequence
+Determining an even number
+Determining the greatest common divisor
+Determining a prime number
+
+
 ## How to install
 1. Clone repo:
 ```
