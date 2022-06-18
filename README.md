@@ -13,41 +13,41 @@
 
 
 ## How to install
-Make sure you have installed Node.js version 13 or higher
-1. Clone repo
+Make sure you have installed Node.js version 13 or higher.
+1. Clone repo:
 ```
 git clone git@github.com:chickenzombie/frontend-project-lvl1.git
 ```
-2. Install packages
+2. Install packages:
 ```
 make install
 ```
 
 ## Game descriptions
-### 1. Brain even
+### 1. Brain even.
 To start the game type:
 ```
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/v3TVvDaOQWNoBnuI7Qxv2neK5.svg)](https://asciinema.org/a/v3TVvDaOQWNoBnuI7Qxv2neK5)
-### 2. Brain prime
+### 2. Brain prime.
 To start the game type:
 ```
 brain-prime
 ```
 [![asciicast](https://asciinema.org/a/ygeHD01YGOeBDi5zD9JnnLgOF.svg)](https://asciinema.org/a/ygeHD01YGOeBDi5zD9JnnLgOF)
-### 3. Brain gcd
+### 3. Brain gcd.
 To start the game type:
 ```
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B.svg)](https://asciinema.org/a/JnTrUNBEGUyOzxzQqjsDuRW6B)
-### 4. Brain calculator
+### 4. Brain calculator.
 [![asciicast](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh.svg)](https://asciinema.org/a/p9PyWafknz80tD71IhPXG0Abh)
 ```
 brain-calc
 ```
-### 5. Brain progression
+### 5. Brain progression.
 ```
 brain-progression
 ```
