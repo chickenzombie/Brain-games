@@ -4,7 +4,8 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 ## How to install
-1. Clone repo: git clone git@github.com:chickenzombie/frontend-project-lvl1.git
+1. Clone repo:
+```git clone git@github.com:chickenzombie/frontend-project-lvl1.git```
 2. Install package: make install
 3. ...
 
