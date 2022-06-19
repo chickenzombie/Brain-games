@@ -21,7 +21,7 @@ git clone git@github.com:chickenzombie/frontend-project-lvl1.git
 ```
 2. Install packages:
 ```
-make install
+install
 ```
 
 ## Game descriptions
