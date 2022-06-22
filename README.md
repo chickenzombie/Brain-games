@@ -24,7 +24,6 @@ git clone git@github.com:chickenzombie/frontend-project-lvl1.git
 cd frontend-project-lvl1
 ```
 3. Install packages:
-2. Install packages:
 ```
 install
 ```
