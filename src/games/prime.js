@@ -1,5 +1,5 @@
-import randomNumberGenerator from '../rng.js';
-import gameEngine from '../index.js';
+import startGameEngine from '../index.js';
+import randomNumberGenerator from '../utilities.js';
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -12,12 +12,12 @@ const isNumberPrime = (number) => {
   return number > 1;
 };
 
-const brainPrime = () => {
+const prepareGameData = () => {
   const randomNumber = randomNumberGenerator(2, 100);
   const rightAnswer = isNumberPrime(randomNumber) ? 'yes' : 'no';
   return [randomNumber, rightAnswer];
 };
 
-export const startBrainPrime = gameEngine(gameDescription, brainPrime);
+const startBrainPrime = startGameEngine(gameDescription, prepareGameData);
 
-export default brainPrime;
+export default startBrainPrime;

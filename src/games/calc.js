@@ -1,11 +1,11 @@
-import gameEngine from '../index.js';
-import randomNumberGenerator from '../rng.js';
+import startGameEngine from '../index.js';
+import randomNumberGenerator from '../utilities.js';
 
 const gameDescription = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const calcLogic = (firstNumber, operator, secondNumber) => {
+const calculateExpressions = (firstNumber, operator, secondNumber) => {
   switch (operator) {
     case '+':
       return firstNumber + secondNumber;
@@ -14,19 +14,19 @@ const calcLogic = (firstNumber, operator, secondNumber) => {
     case '*':
       return firstNumber * secondNumber;
     default:
-      return 'Unknown operator';
+      throw new Error(`Unknown operator: '${operator}'!`);
   }
 };
 
-const brainCalc = () => {
+const prepareGameData = () => {
   const firstNumber = randomNumberGenerator(1, 10);
   const secondNumber = randomNumberGenerator(1, 10);
   const randomOperator = operators[randomNumberGenerator(0, operators.length - 1)];
   const question = `${firstNumber} ${randomOperator} ${secondNumber}`;
-  const rightAnswer = String(calcLogic(firstNumber, randomOperator, secondNumber));
+  const rightAnswer = String(calculateExpressions(firstNumber, randomOperator, secondNumber));
   return [question, rightAnswer];
 };
 
-export const startBrainCalc = gameEngine(gameDescription, brainCalc);
+const startBrainCalc = startGameEngine(gameDescription, prepareGameData);
 
-export default brainCalc;
+export default startBrainCalc;

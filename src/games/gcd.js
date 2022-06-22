@@ -1,26 +1,26 @@
-import randomNumberGenerator from '../rng.js';
-import gameEngine from '../index.js';
+import startGameEngine from '../index.js';
+import randomNumberGenerator from '../utilities.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
-const gcdLogic = (firstNumber, secondNumber) => {
+const calculateGCD = (firstNumber, secondNumber) => {
   if (secondNumber === 0) {
     return firstNumber;
   }
   if (secondNumber > firstNumber) {
-    return gcdLogic(secondNumber, firstNumber);
+    return calculateGCD(secondNumber, firstNumber);
   }
-  return gcdLogic(secondNumber, firstNumber % secondNumber);
+  return calculateGCD(secondNumber, firstNumber % secondNumber);
 };
 
-const brainGCD = () => {
+const prepareGameData = () => {
   const firstNumber = randomNumberGenerator(1, 50);
   const secondNumber = randomNumberGenerator(1, 50);
   const question = `${firstNumber} ${secondNumber}`;
-  const rightAnswer = `${gcdLogic(firstNumber, secondNumber)}`;
+  const rightAnswer = `${calculateGCD(firstNumber, secondNumber)}`;
   return [question, rightAnswer];
 };
 
-export const startBrainGCD = gameEngine(gameDescription, brainGCD);
+const startBrainGCD = startGameEngine(gameDescription, prepareGameData);
 
-export default brainGCD;
+export default startBrainGCD;

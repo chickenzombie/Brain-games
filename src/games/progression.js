@@ -1,9 +1,9 @@
-import randomNumberGenerator from '../rng.js';
-import gameEngine from '../index.js';
+import startGameEngine from '../index.js';
+import randomNumberGenerator from '../utilities.js';
 
 const gameDescription = 'What number is missing in the progression?';
 
-const brainProgression = () => {
+const calculateProgression = () => {
   const progression = [];
   const progressionSize = randomNumberGenerator(5, 10);
   const progressionStep = randomNumberGenerator(1, 5);
@@ -13,6 +13,11 @@ const brainProgression = () => {
     progressionElement += progressionStep;
     progression.push(progressionElement);
   }
+  return progression;
+};
+
+const prepareGameData = () => {
+  const progression = calculateProgression();
   const hiddenNumber = randomNumberGenerator(1, progression.length - 2);
   const rightAnswer = String(progression[hiddenNumber]);
   progression[hiddenNumber] = '..';
@@ -20,6 +25,6 @@ const brainProgression = () => {
   return [question, rightAnswer];
 };
 
-export const startBrainProgression = gameEngine(gameDescription, brainProgression);
+export const startBrainProgression = startGameEngine(gameDescription, prepareGameData);
 
-export default brainProgression;
+export default startBrainProgression;
