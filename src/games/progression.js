@@ -25,6 +25,6 @@ const prepareGameData = () => {
   return [question, rightAnswer];
 };
 
-export const startBrainProgression = startGameEngine(gameDescription, prepareGameData);
+const startBrainProgression = startGameEngine(gameDescription, prepareGameData);
 
 export default startBrainProgression;
